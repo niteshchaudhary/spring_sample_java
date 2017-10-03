@@ -25,7 +25,7 @@ public class UserProfileTest {
         user = userContext.getUser();
         System.out.println(user);
 
-
+        System.out.println("this is testing 3");
     }
 
 }
