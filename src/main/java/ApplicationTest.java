@@ -1,7 +1,4 @@
-package travelerProfile;
-
-import config.TestExecutionContextConfiguration;
-import utils.TestExecutionContext;
+import com.homeaway.service.TestExecutionContext;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
@@ -14,7 +11,7 @@ import org.junit.runner.RunWith;
 @RunWith(SpringJUnit4ClassRunner.class)
 
 
-public class TravelerProfileBadgesTest {
+public class ApplicationTest {
 
     public static String site;
     public static String env;
