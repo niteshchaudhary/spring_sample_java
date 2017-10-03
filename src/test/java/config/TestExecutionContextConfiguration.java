@@ -1,8 +1,12 @@
-import com.homeaway.repository.CustomerRepository;
-import com.homeaway.repository.HibernateCustomerRepositoryImpl;
-import com.homeaway.service.TestExecutionContext;
+package config;
+
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+
+import com.homeaway.repository.CustomerRepository;
+import com.homeaway.repository.HibernateCustomerRepositoryImpl;
+
+import utils.TestExecutionContext;
 
 @Configuration
 public class TestExecutionContextConfiguration {
