@@ -24,7 +24,6 @@ public class UserProfileTest {
     public void user_profile() throws Throwable {
         user = userContext.getUser();
         System.out.println(user);
-        System.out.println("testing");
 
 
     }
